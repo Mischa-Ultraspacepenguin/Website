@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stijl.css">
+
+    <title>EetSlim</title>
+</head>
+
+<body>
+
+    <!-- NAVIGATIE -->
+    <header class="navbar">
+        <div class="nav-inner">
+
+            <a href="aigenerated.html" class="logo-area">
+                <div class="logo-circle">🥗</div>
+
+                <div class="logo-text">
+                    <h1>EetSlim</h1>
+                    <p>Red je eten, niet je afvalbak</p>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="aigenerated.html"><b>Home</b></a>
+                <a href="Voorraad.html">Voorraad</a>
+                <a href="Recepten.html">Recepten</a>
+                <a href="impact.html">Impact</a>
+
+                <!-- ACCOUNT -->
+                <span id="welcomeMessage"></span>
+
+                <a href="account.html" id="accountLink">
+                    Account
+                </a>
+
+                <button id="logoutButton" style="display: none;">
+                    Uitloggen
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    VOOR IEDEREEN VAN 15 T/M 99 JAAR!
+                </div>
+
+                <h2>
+                    Red je eten,<br>
+                    niet je afvalbak.
+                </h2>
+
+                <p class="hero-description">
+                    Elke Nederlander gooit jaarlijks zo'n 33 kilo eten weg.
+                    EetSlim laat je zien wat er in huis bijna over datum is,
+                    geeft je een recept dat past en telt precies hoeveel je
+                    hebt gered.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="Voorraad.html" class="btn btn-orange">
+                        Bekijk mijn voorraad
+                    </a>
+
+                    <a href="Recepten.html" class="btn btn-outline">
+                        Vind een recept
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATISTIEKEN -->
+        <section class="stats">
+
+            <div class="stat-card">
+                <div class="stat-label">PUNTEN</div>
+                <div class="stat-value">120</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">GERECHTEN</div>
+                <div class="stat-value">28</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">GERED</div>
+                <div class="stat-value">5.3 kg</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">NIVEAU</div>
+
+                <div class="stat-value" style="font-size:23px;">
+                    Restjes-rookie
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- VOORRAAD -->
+        <section class="section" id="voorraad">
+
+            <div class="section-header">
+
+                <h3>Eet dit eerst op</h3>
+
+                <a href="Voorraad.html" class="section-link">
+                    Hele voorraad
+                </a>
+
+            </div>
+
+
+            <div class="food-grid">
+
+                <article class="food-card">
+
+                    <div class="food-info">
+                        <h4>Kipfilet</h4>
+                        <p>300 g · 1 dag(en) over datum</p>
+                    </div>
+
+                    <span class="status status-danger">
+                        Over datum
+                    </span>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-info">
+                        <h4>Volle yoghurt</h4>
+                        <p>500 ml · vandaag</p>
+                    </div>
+
+                    <span class="status status-warning">
+                        Vandaag opeten
+                    </span>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-info">
+                        <h4>Bananen</h4>
+                        <p>3 stuks · nog 1 dag(en)</p>
+                    </div>
+
+                    <span class="status status-warning">
+                        Vandaag opeten
+                    </span>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-info">
+                        <h4>Oud brood</h4>
+                        <p>4 sneden · nog 1 dag(en)</p>
+                    </div>
+
+                    <span class="status status-warning">
+                        Vandaag opeten
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- POPULAIRE RECEPTEN -->
+        <section class="section" id="recepten">
+
+            <div class="section-header">
+                <h3>Populair deze week</h3>
+            </div>
+
+
+            <div class="popular-grid">
+
+                <a href="bananenpannenkoek.html" class="recipe-link">
+
+                    <article class="recipe-card">
+
+                        <div class="recipe-image">
+                            <img src="bananenpannenkoek afb.jpg">
+                        </div>
+
+                        <div class="recipe-content">
+                            <h4>Bananenpannenkoek</h4>
+                            <p>Met rijpe bananen uit je voorraad</p>
+                        </div>
+
+                    </article>
+
+                </a>
+
+
+                <a href="wentelteefjes.html" class="recipe-link">
+
+                    <article class="recipe-card">
+
+                        <div class="recipe-image">
+                            <img src="wentelteefjes afb.jpg">
+                        </div>
+
+                        <div class="recipe-content">
+                            <h4>Wentelteefjes</h4>
+                            <p>Perfect voor oud brood</p>
+                        </div>
+
+                    </article>
+
+                </a>
+
+
+                <a href="snelle-wrap.html" class="recipe-link">
+
+                    <article class="recipe-card">
+
+                        <div class="recipe-image">
+                            <img src="snelle-wrap afb.jpg">
+                        </div>
+
+                        <div class="recipe-content">
+                            <h4>Snelle wrap</h4>
+                            <p>Een makkelijke maaltijd met restjes</p>
+                        </div>
+
+                    </article>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- IMPACT -->
+        <section class="section" id="impact">
+
+            <div class="section-header">
+                <h3>Jouw impact</h3>
+            </div>
+
+
+            <div class="food-card">
+
+                <div class="food-info">
+
+                    <h4>Goed bezig! 🌱</h4>
+
+                    <p>
+                        Je hebt al 0.9 kg voedsel van de afvalbak gered.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ACCOUNT JAVASCRIPT -->
+
+
+<!-- UITLOG POPUP -->
+<div id="logoutPopup" class="logout-popup">
+
+    <div class="logout-popup-box">
+
+        <h2>Uitloggen?</h2>
+
+        <p>
+            Weet je zeker dat je wilt uitloggen?
+        </p>
+
+        <div class="logout-popup-buttons">
+
+            <button id="cancelLogout" class="cancel-button" type="button">
+                Annuleren
+            </button>
+
+            <button id="confirmLogout" class="confirm-button" type="button">
+                Uitloggen
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const welcomeMessage = document.getElementById("welcomeMessage");
+    const accountLink = document.getElementById("accountLink");
+    const logoutButton = document.getElementById("logoutButton");
+
+    const logoutPopup = document.getElementById("logoutPopup");
+    const cancelLogout = document.getElementById("cancelLogout");
+    const confirmLogout = document.getElementById("confirmLogout");
+
+
+    // =========================
+    // CONTROLEREN OF IEMAND IS INGELOGD
+    // =========================
+
+    const loggedInUser = localStorage.getItem("EetSlimLoggedIn");
+
+
+    if (loggedInUser) {
+
+        welcomeMessage.textContent = "Welkom, " + loggedInUser + "!";
+
+        accountLink.style.display = "none";
+
+        logoutButton.style.display = "inline-block";
+
+    } else {
+
+        welcomeMessage.textContent = "";
+
+        accountLink.style.display = "inline-block";
+
+        logoutButton.style.display = "none";
+
+    }
+
+
+    // =========================
+    // POPUP OPENEN
+    // =========================
+
+    logoutButton.addEventListener("click", function () {
+
+        logoutPopup.style.display = "flex";
+
+    });
+
+
+    // =========================
+    // ANNULEREN
+    // =========================
+
+    cancelLogout.addEventListener("click", function () {
+
+        logoutPopup.style.display = "none";
+
+    });
+
+
+    // =========================
+    // UITLOGGEN
+    // =========================
+
+    confirmLogout.addEventListener("click", function () {
+
+        localStorage.removeItem("EetSlimLoggedIn");
+
+        window.location.href = "account.html";
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>

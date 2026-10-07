@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EetSlim - Account</title>
+
+    <link rel="stylesheet" href="stijl.css">
+</head>
+
+<body>
+
+<header class="navbar">
+        <div class="nav-inner">
+
+            <a href="aigenerated.html" class="logo-area">
+                <div class="logo-circle">🥗</div>
+
+                <div class="logo-text">
+                    <h1>EetSlim</h1>
+                    <p>Red je eten, niet je afvalbak</p>
+                </div>
+            </a>
+
+
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+<main class="login-page">
+
+    <div class="login-box">
+
+        <!-- LOGIN -->
+
+        <div id="loginSection">
+
+            <h1>Inloggen</h1>
+
+            <p>Log in op je EetSlim-account.</p>
+
+            <form id="loginForm">
+
+                <label for="loginUsername">
+                    Gebruikersnaam
+                </label>
+
+                <input
+                    type="text"
+                    id="loginUsername"
+                    required
+                >
+
+                <label for="loginPassword">
+                    Wachtwoord
+                </label>
+
+                <input
+                    type="password"
+                    id="loginPassword"
+                    required
+                >
+
+                <button type="submit">
+                    Inloggen
+                </button>
+
+            </form>
+
+            <p id="loginMessage"></p>
+
+            <p class="register-text">
+                Nog geen account?
+                <a href="#" id="showRegister">
+                    Account aanmaken
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- REGISTER -->
+
+        <div id="registerSection" style="display: none;">
+
+            <h1>Account aanmaken</h1>
+
+            <p>Maak een nieuw EetSlim-account.</p>
+
+            <form id="registerForm">
+
+                <label for="registerUsername">
+                    Gebruikersnaam
+                </label>
+
+                <input
+                    type="text"
+                    id="registerUsername"
+                    required
+                >
+
+                <label for="registerPassword">
+                    Wachtwoord
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    required
+                >
+
+                <label for="registerPasswordAgain">
+                    Wachtwoord opnieuw
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPasswordAgain"
+                    required
+                >
+
+                <button type="submit">
+                    Account aanmaken
+                </button>
+
+            </form>
+
+            <p id="registerMessage"></p>
+
+            <p class="register-text">
+                Heb je al een account?
+                <a href="#" id="showLogin">
+                    Inloggen
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="account.js"></script>
+
+</body>
+</html>
